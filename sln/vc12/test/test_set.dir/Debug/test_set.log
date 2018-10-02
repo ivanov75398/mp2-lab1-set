@@ -1,0 +1,200 @@
+﻿Build started 02.10.2018 21:06:55.
+     1>Project "D:\Files\git\mp2-lab1-set\sln\vc12\test\test_set.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\Visual Studio 12\VC\bin\CL.exe /c /I"D:\Files\git\mp2-lab1-set\include" /I"D:\Files\git\mp2-lab1-set\gtest" /I"D:\Files\git\mp2-lab1-set\test\..\3rdparty" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"test_set.dir\Debug\\" /Fd"test_set.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "D:\Files\git\mp2-lab1-set\test\test_tbitfield.cpp" "D:\Files\git\mp2-lab1-set\test\test_tset.cpp"
+         test_tbitfield.cpp
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(51): warning C4005: '_VARIADIC_MAX' : macro redefinition
+                 D:\Program Files\Visual Studio 12\VC\include\xstddef(397) : see previous definition of '_VARIADIC_MAX'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(9743): error C2977: 'std::tuple' : too many template arguments
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(9751): error C2977: 'std::tuple' : too many template arguments
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14956): error C2977: 'std::tuple' : too many template arguments
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+                 D:\Files\git\mp2-lab1-set\gtest\gtest.h(15188) : see reference to class template instantiation 'testing::internal::CartesianProductGenerator9<T1,T2,T3,T4,T5,T6,T7,T8,T9>' being compiled
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14956): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14956): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14956): error C2955: 'testing::internal::ParamGeneratorInterface' : use of class template requires template argument list
+                 D:\Files\git\mp2-lab1-set\gtest\gtest.h(10143) : see declaration of 'testing::internal::ParamGeneratorInterface'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14958): error C2977: 'std::tuple' : too many template arguments
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14969): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14969): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14974): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14974): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14981): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+                 D:\Files\git\mp2-lab1-set\gtest\gtest.h(14981) : see reference to class template instantiation 'testing::internal::CartesianProductGenerator9<T1,T2,T3,T4,T5,T6,T7,T8,T9>::Iterator' being compiled
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14981): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14981): error C2955: 'testing::internal::ParamIteratorInterface' : use of class template requires template argument list
+                 D:\Files\git\mp2-lab1-set\gtest\gtest.h(10070) : see declaration of 'testing::internal::ParamIteratorInterface'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14983): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14983): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15016): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15016): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15058): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15058): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15062): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15062): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15143): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15143): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15195): error C2977: 'std::tuple' : too many template arguments
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+                 D:\Files\git\mp2-lab1-set\gtest\gtest.h(15444) : see reference to class template instantiation 'testing::internal::CartesianProductGenerator10<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10>' being compiled
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15195): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15195): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15195): error C2955: 'testing::internal::ParamGeneratorInterface' : use of class template requires template argument list
+                 D:\Files\git\mp2-lab1-set\gtest\gtest.h(10143) : see declaration of 'testing::internal::ParamGeneratorInterface'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15197): error C2977: 'std::tuple' : too many template arguments
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15209): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15209): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15214): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15214): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15221): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+                 D:\Files\git\mp2-lab1-set\gtest\gtest.h(15221) : see reference to class template instantiation 'testing::internal::CartesianProductGenerator10<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10>::Iterator' being compiled
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15221): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15221): error C2955: 'testing::internal::ParamIteratorInterface' : use of class template requires template argument list
+                 D:\Files\git\mp2-lab1-set\gtest\gtest.h(10070) : see declaration of 'testing::internal::ParamIteratorInterface'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15223): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15223): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15259): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15259): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15305): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15305): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15309): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15309): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15395): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15395): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15677): error C2977: 'std::tuple' : too many template arguments
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+                 D:\Files\git\mp2-lab1-set\gtest\gtest.h(15705) : see reference to class template instantiation 'testing::internal::CartesianProductHolder9<Generator1,Generator2,Generator3,Generator4,Generator5,Generator6,Generator7,Generator8,Generator9>' being compiled
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15677): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15677): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15721): error C2977: 'std::tuple' : too many template arguments
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+                 D:\Files\git\mp2-lab1-set\gtest\gtest.h(15752) : see reference to class template instantiation 'testing::internal::CartesianProductHolder10<Generator1,Generator2,Generator3,Generator4,Generator5,Generator6,Generator7,Generator8,Generator9,Generator10>' being compiled
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15721): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15721): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+         test_tset.cpp
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(51): warning C4005: '_VARIADIC_MAX' : macro redefinition
+                 D:\Program Files\Visual Studio 12\VC\include\xstddef(397) : see previous definition of '_VARIADIC_MAX'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(9743): error C2977: 'std::tuple' : too many template arguments
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(9751): error C2977: 'std::tuple' : too many template arguments
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14956): error C2977: 'std::tuple' : too many template arguments
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+                 D:\Files\git\mp2-lab1-set\gtest\gtest.h(15188) : see reference to class template instantiation 'testing::internal::CartesianProductGenerator9<T1,T2,T3,T4,T5,T6,T7,T8,T9>' being compiled
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14956): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14956): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14956): error C2955: 'testing::internal::ParamGeneratorInterface' : use of class template requires template argument list
+                 D:\Files\git\mp2-lab1-set\gtest\gtest.h(10143) : see declaration of 'testing::internal::ParamGeneratorInterface'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14958): error C2977: 'std::tuple' : too many template arguments
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14969): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14969): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14974): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14974): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14981): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+                 D:\Files\git\mp2-lab1-set\gtest\gtest.h(14981) : see reference to class template instantiation 'testing::internal::CartesianProductGenerator9<T1,T2,T3,T4,T5,T6,T7,T8,T9>::Iterator' being compiled
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14981): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14981): error C2955: 'testing::internal::ParamIteratorInterface' : use of class template requires template argument list
+                 D:\Files\git\mp2-lab1-set\gtest\gtest.h(10070) : see declaration of 'testing::internal::ParamIteratorInterface'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14983): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(14983): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15016): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15016): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15058): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15058): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15062): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15062): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15143): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15143): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15195): error C2977: 'std::tuple' : too many template arguments
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+                 D:\Files\git\mp2-lab1-set\gtest\gtest.h(15444) : see reference to class template instantiation 'testing::internal::CartesianProductGenerator10<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10>' being compiled
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15195): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15195): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15195): error C2955: 'testing::internal::ParamGeneratorInterface' : use of class template requires template argument list
+                 D:\Files\git\mp2-lab1-set\gtest\gtest.h(10143) : see declaration of 'testing::internal::ParamGeneratorInterface'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15197): error C2977: 'std::tuple' : too many template arguments
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15209): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15209): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15214): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15214): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15221): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+                 D:\Files\git\mp2-lab1-set\gtest\gtest.h(15221) : see reference to class template instantiation 'testing::internal::CartesianProductGenerator10<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10>::Iterator' being compiled
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15221): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15221): error C2955: 'testing::internal::ParamIteratorInterface' : use of class template requires template argument list
+                 D:\Files\git\mp2-lab1-set\gtest\gtest.h(10070) : see declaration of 'testing::internal::ParamIteratorInterface'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15223): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15223): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15259): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15259): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15305): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15305): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15309): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15309): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15395): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15395): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15677): error C2977: 'std::tuple' : too many template arguments
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+                 D:\Files\git\mp2-lab1-set\gtest\gtest.h(15705) : see reference to class template instantiation 'testing::internal::CartesianProductHolder9<Generator1,Generator2,Generator3,Generator4,Generator5,Generator6,Generator7,Generator8,Generator9>' being compiled
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15677): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15677): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15721): error C2977: 'std::tuple' : too many template arguments
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+                 D:\Files\git\mp2-lab1-set\gtest\gtest.h(15752) : see reference to class template instantiation 'testing::internal::CartesianProductHolder10<Generator1,Generator2,Generator3,Generator4,Generator5,Generator6,Generator7,Generator8,Generator9,Generator10>' being compiled
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15721): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>D:\Files\git\mp2-lab1-set\gtest\gtest.h(15721): error C2955: 'std::tuple' : use of class template requires template argument list
+                 D:\Program Files\Visual Studio 12\VC\include\utility(73) : see declaration of 'std::tuple'
+         Generating Code...
+     1>Done Building Project "D:\Files\git\mp2-lab1-set\sln\vc12\test\test_set.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.43

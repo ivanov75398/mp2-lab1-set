@@ -1,0 +1,16 @@
+﻿Build started 02.10.2018 21:06:51.
+     1>Project "D:\Files\git\mp2-lab1-set\sln\vc12\src\set.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\Visual Studio 12\VC\bin\CL.exe /c /I"D:\Files\git\mp2-lab1-set\include" /I"D:\Files\git\mp2-lab1-set\gtest" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"set.dir\Debug\\" /Fd"set.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "D:\Files\git\mp2-lab1-set\src\tbitfield.cpp" "D:\Files\git\mp2-lab1-set\src\tset.cpp"
+         tbitfield.cpp
+         tset.cpp
+         Generating Code...
+       Lib:
+         D:\Program Files\Visual Studio 12\VC\bin\Lib.exe /OUT:"D:\Files\git\mp2-lab1-set\sln\vc12\lib\Debug\set.lib" /NOLOGO  /machine:X86 set.dir\Debug\tbitfield.obj
+         set.dir\Debug\tset.obj
+         set.vcxproj -> D:\Files\git\mp2-lab1-set\sln\vc12\lib\Debug\set.lib
+     1>Done Building Project "D:\Files\git\mp2-lab1-set\sln\vc12\src\set.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.92

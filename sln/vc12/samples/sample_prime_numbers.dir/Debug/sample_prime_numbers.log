@@ -1,0 +1,10 @@
+﻿Build started 02.10.2018 21:06:54.
+     1>Project "D:\Files\git\mp2-lab1-set\sln\vc12\samples\sample_prime_numbers.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         D:\Program Files\Visual Studio 12\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Files\git\mp2-lab1-set\sln\vc12\bin\sample_prime_numbers.exe" /INCREMENTAL /NOLOGO ..\lib\Debug\set.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Files/git/mp2-lab1-set/sln/vc12/bin/sample_prime_numbers.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Files/git/mp2-lab1-set/sln/vc12/lib/Debug/sample_prime_numbers.lib" /MACHINE:X86 /SAFESEH  /machine:X86 sample_prime_numbers.dir\Debug\sample_prime_numbers.obj
+         sample_prime_numbers.vcxproj -> D:\Files\git\mp2-lab1-set\sln\vc12\bin\sample_prime_numbers.exe
+     1>Done Building Project "D:\Files\git\mp2-lab1-set\sln\vc12\samples\sample_prime_numbers.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.90

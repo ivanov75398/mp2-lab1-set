@@ -1,0 +1,16 @@
+﻿Build started 02.10.2018 20:37:42.
+     1>Project "D:\Files\git\mp2-lab1-set\sln\vc12\gtest\gtest.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule D:/Files/git/mp2-lab1-set/gtest/CMakeLists.txt
+         CMake does not need to re-run because D:/Files/git/mp2-lab1-set/sln/vc12/gtest/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         D:\Program Files\Visual Studio 12\VC\bin\CL.exe /c /I"D:\Files\git\mp2-lab1-set\include" /I"D:\Files\git\mp2-lab1-set\gtest" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"gtest.dir\Debug\\" /Fd"gtest.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "D:\Files\git\mp2-lab1-set\gtest\gtest-all.cc"
+         gtest-all.cc
+       Lib:
+         D:\Program Files\Visual Studio 12\VC\bin\Lib.exe /OUT:"D:\Files\git\mp2-lab1-set\sln\vc12\lib\Debug\gtest.lib" /NOLOGO  /machine:X86 "gtest.dir\Debug\gtest-all.obj"
+         gtest.vcxproj -> D:\Files\git\mp2-lab1-set\sln\vc12\lib\Debug\gtest.lib
+     1>Done Building Project "D:\Files\git\mp2-lab1-set\sln\vc12\gtest\gtest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.91
