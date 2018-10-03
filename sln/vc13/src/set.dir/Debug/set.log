@@ -1,0 +1,19 @@
+﻿Build started 03.10.2018 13:15:33.
+     1>Project "C:\ivanov75398\mp2-lab1-set\sln\vc13\src\set.vcxproj" on node 3 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/ivanov75398/mp2-lab1-set/src/CMakeLists.txt
+         CMake does not need to re-run because C:\ivanov75398\mp2-lab1-set\sln\vc13\src\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\ivanov75398\mp2-lab1-set\include" /I"C:\ivanov75398\mp2-lab1-set\gtest" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"set.dir\Debug\\" /Fd"set.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\ivanov75398\mp2-lab1-set\src\tbitfield.cpp" "C:\ivanov75398\mp2-lab1-set\src\tset.cpp"
+         tbitfield.cpp
+         tset.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\ivanov75398\mp2-lab1-set\sln\vc13\lib\Debug\set.lib" /NOLOGO  /machine:X86 set.dir\Debug\tbitfield.obj
+         set.dir\Debug\tset.obj
+         set.vcxproj -> C:\ivanov75398\mp2-lab1-set\sln\vc13\lib\Debug\set.lib
+     1>Done Building Project "C:\ivanov75398\mp2-lab1-set\sln\vc13\src\set.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.08

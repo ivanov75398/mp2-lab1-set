@@ -86,7 +86,7 @@ TSet TSet::operator+(const TSet &s) // объединение
 			if (IsMember(i) || s.IsMember(i))
 				_check_.SetBit(i);
 		}
-		return _check_;//return TSet(_check_), equivalence;
+		return _check_;
 	}
 	TBitField _check_(s.MaxPower);
 	for (int i = 0; i < s.MaxPower; i++)
@@ -108,7 +108,7 @@ TSet TSet::operator+(const int Elem) // объединение с элемент
 TSet TSet::operator-(const int Elem) // разность с элементом
 {
 	if (Elem < 0 || Elem > MaxPower) throw - 5;
-	TBitField _check_(BitField);//?
+	TBitField _check_(BitField);
 	_check_.ClrBit(Elem);
 	return _check_;
 }
