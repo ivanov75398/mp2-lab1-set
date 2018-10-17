@@ -1,16 +1,10 @@
-﻿Build started 03.10.2018 13:15:37.
-     1>Project "C:\ivanov75398\mp2-lab1-set\sln\vc13\samples\sample_prime_numbers.vcxproj" on node 3 (Build target(s)).
-     1>CustomBuild:
-         Building Custom Rule C:/ivanov75398/mp2-lab1-set/samples/CMakeLists.txt
-         CMake does not need to re-run because C:\ivanov75398\mp2-lab1-set\sln\vc13\samples\CMakeFiles\generate.stamp is up-to-date.
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\ivanov75398\mp2-lab1-set\include" /I"C:\ivanov75398\mp2-lab1-set\gtest" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"sample_prime_numbers.dir\Debug\\" /Fd"sample_prime_numbers.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\ivanov75398\mp2-lab1-set\samples\sample_prime_numbers.cpp"
-         sample_prime_numbers.cpp
-       Link:
+﻿Build started 17.10.2018 13:51:38.
+     1>Project "C:\ivanov75398\mp2-lab1-set\sln\vc13\samples\sample_prime_numbers.vcxproj" on node 2 (Build target(s)).
+     1>Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\ivanov75398\mp2-lab1-set\sln\vc13\bin\sample_prime_numbers.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\lib\Debug\set.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/ivanov75398/mp2-lab1-set/sln/vc13/bin/sample_prime_numbers.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ivanov75398/mp2-lab1-set/sln/vc13/lib/Debug/sample_prime_numbers.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug sample_prime_numbers.dir\Debug\sample_prime_numbers.obj
          sample_prime_numbers.vcxproj -> C:\ivanov75398\mp2-lab1-set\sln\vc13\bin\sample_prime_numbers.exe
      1>Done Building Project "C:\ivanov75398\mp2-lab1-set\sln\vc13\samples\sample_prime_numbers.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.71
+Time Elapsed 00:00:01.12

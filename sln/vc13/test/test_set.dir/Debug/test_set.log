@@ -1,15 +1,6 @@
-﻿Build started 03.10.2018 13:15:38.
+﻿Build started 17.10.2018 13:51:51.
      1>Project "C:\ivanov75398\mp2-lab1-set\sln\vc13\test\test_set.vcxproj" on node 2 (Build target(s)).
-     1>CustomBuild:
-         Building Custom Rule C:/ivanov75398/mp2-lab1-set/test/CMakeLists.txt
-         CMake does not need to re-run because C:\ivanov75398\mp2-lab1-set\sln\vc13\test\CMakeFiles\generate.stamp is up-to-date.
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\ivanov75398\mp2-lab1-set\include" /I"C:\ivanov75398\mp2-lab1-set\gtest" /I"C:\ivanov75398\mp2-lab1-set\test\..\3rdparty" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"test_set.dir\Debug\\" /Fd"test_set.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\ivanov75398\mp2-lab1-set\test\test_main.cpp" "C:\ivanov75398\mp2-lab1-set\test\test_tbitfield.cpp" "C:\ivanov75398\mp2-lab1-set\test\test_tset.cpp"
-         test_main.cpp
-         test_tbitfield.cpp
-         test_tset.cpp
-         Generating Code...
-       Link:
+     1>Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\ivanov75398\mp2-lab1-set\sln\vc13\bin\test_set.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\lib\Debug\gtest.lib ..\lib\Debug\set.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/ivanov75398/mp2-lab1-set/sln/vc13/bin/test_set.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ivanov75398/mp2-lab1-set/sln/vc13/lib/Debug/test_set.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug test_set.dir\Debug\test_main.obj
          test_set.dir\Debug\test_tbitfield.obj
          test_set.dir\Debug\test_tset.obj
@@ -18,4 +9,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:05.92
+Time Elapsed 00:00:01.07
